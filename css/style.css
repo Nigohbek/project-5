@@ -13,6 +13,15 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--color);
+    border-radius: 10px;
+}
+
 a {
     text-decoration: none;
 }
