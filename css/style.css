@@ -78,7 +78,8 @@ body {
 
 .header__nav {
     background: var(--color_1);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 99;
     backdrop-filter: blur(15px);
@@ -195,13 +196,9 @@ body {
    height: 509px;
 }
 
-/* .header__right-image {
-    padding: 33px 0 0 48px;
+.header__right-image img {
+    width: 700px;
 }
-
-.header__right-image-2 {
-    left: 338px;
-}  */
 
 /* ==================== Section view start ==================== */
 
